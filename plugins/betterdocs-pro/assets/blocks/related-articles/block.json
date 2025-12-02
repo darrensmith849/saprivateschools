@@ -1,8 +1,0 @@
-{
-    "apiVersion": 2,
-    "title": "BetterDocs Related Articles",
-    "name": "betterdocs/related-docs",
-    "category": "betterdocs",
-    "description": "Display your related articles block on single docs",
-    "textdomain": "betterdocs-pro"
-}
