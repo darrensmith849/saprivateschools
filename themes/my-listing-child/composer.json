@@ -1,0 +1,15 @@
+{
+    "name": "ngd/ngd-starter-theme",
+    "autoload": {
+        "psr-4": {
+            "NGD_THEME\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdul Waheed",
+            "email": "nexgendevs@gmail.com"
+        }
+    ],
+    "require": {}
+}

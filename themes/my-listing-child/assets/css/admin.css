@@ -1,0 +1,32 @@
+#pricing_table_product_data {
+  padding: 15px 20px;
+}
+#pricing_table_product_data table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  border: 1px solid lightgrey;
+}
+#pricing_table_product_data table tr, #pricing_table_product_data table th, #pricing_table_product_data table td {
+  border: 1px solid lightgrey;
+}
+#pricing_table_product_data table th, #pricing_table_product_data table td {
+  padding: 5px 10px;
+}
+#pricing_table_product_data table td.table-label {
+  min-width: 150px;
+}
+#pricing_table_product_data table label {
+  float: none;
+  width: 100%;
+  display: block;
+  margin: 0;
+}
+#pricing_table_product_data table label input[type=text],
+#pricing_table_product_data table label input[type=number] {
+  display: block;
+  float: none;
+  width: 100%;
+  min-width: 100px;
+}

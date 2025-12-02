@@ -1,0 +1,28 @@
+{
+  "name": "ngd-starter",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-mix": "^6.0.3",
+    "postcss": "^8.4.14",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.53.0",
+    "sass-loader": "^12.6.0",
+    "webpack": "^5.73.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss-import": "^15.1.0",
+    "sweetalert2": "^11.6.13"
+  }
+}

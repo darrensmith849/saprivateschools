@@ -1,0 +1,290 @@
+{
+  "_NoticesPlugin-legacy.9368784a.js": {
+    "file": "common/NoticesPlugin-legacy.9368784a.js"
+  },
+  "_NoticesPlugin.4b31c3cc.js": {
+    "file": "common/NoticesPlugin.4b31c3cc.js"
+  },
+  "_antd-legacy.f4c4ce62.js": {
+    "file": "common/antd-legacy.f4c4ce62.js",
+    "imports": [
+      "_reactLib-legacy.46427991.js",
+      "_redux-legacy.aa418359.js"
+    ]
+  },
+  "_antd.c7274917.js": {
+    "file": "common/antd.c7274917.js",
+    "imports": [
+      "_reactLib.88bd1adb.js",
+      "_redux.3f90f9cb.js"
+    ]
+  },
+  "_antdIcons-legacy.8fdf056b.js": {
+    "file": "common/antdIcons-legacy.8fdf056b.js",
+    "imports": [
+      "_antd-legacy.f4c4ce62.js",
+      "_redux-legacy.aa418359.js",
+      "_reactLib-legacy.46427991.js"
+    ]
+  },
+  "_antdIcons.a79677a9.js": {
+    "file": "common/antdIcons.a79677a9.js",
+    "imports": [
+      "_antd.c7274917.js",
+      "_redux.3f90f9cb.js",
+      "_reactLib.88bd1adb.js"
+    ]
+  },
+  "_index-legacy.1e4d52e6.js": {
+    "file": "common/index-legacy.1e4d52e6.js"
+  },
+  "_reactLib-legacy.46427991.js": {
+    "file": "common/reactLib-legacy.46427991.js"
+  },
+  "_reactLib.88bd1adb.js": {
+    "file": "common/reactLib.88bd1adb.js"
+  },
+  "_redux-legacy.aa418359.js": {
+    "file": "common/redux-legacy.aa418359.js",
+    "imports": [
+      "_reactLib-legacy.46427991.js"
+    ]
+  },
+  "_redux.3f90f9cb.js": {
+    "file": "common/redux.3f90f9cb.js",
+    "imports": [
+      "_reactLib.88bd1adb.js"
+    ]
+  },
+  "index.css": {
+    "file": "assets/index-467dde24.css",
+    "src": "index.css"
+  },
+  "packages/acfwf-admin-app/index-legacy.tsx": {
+    "file": "packages/acfwf-admin-app/index-legacy.fd04788f.js",
+    "imports": [
+      "_reactLib-legacy.46427991.js",
+      "_redux-legacy.aa418359.js",
+      "_antd-legacy.f4c4ce62.js",
+      "_antdIcons-legacy.8fdf056b.js"
+    ],
+    "isEntry": true,
+    "src": "packages/acfwf-admin-app/index-legacy.tsx"
+  },
+  "packages/acfwf-admin-app/index.css": {
+    "file": "assets/index-5d8b916c.css",
+    "src": "packages/acfwf-admin-app/index.css"
+  },
+  "packages/acfwf-admin-app/index.tsx": {
+    "css": [
+      "assets/index-5d8b916c.css"
+    ],
+    "file": "packages/acfwf-admin-app/index.1b7c0a70.js",
+    "imports": [
+      "_reactLib.88bd1adb.js",
+      "_redux.3f90f9cb.js",
+      "_antd.c7274917.js",
+      "_antdIcons.a79677a9.js"
+    ],
+    "isEntry": true,
+    "src": "packages/acfwf-admin-app/index.tsx"
+  },
+  "packages/acfwf-admin/index-legacy.ts": {
+    "file": "packages/acfwf-admin/index-legacy.7719510c.js",
+    "isEntry": true,
+    "src": "packages/acfwf-admin/index-legacy.ts"
+  },
+  "packages/acfwf-admin/index.ts": {
+    "file": "packages/acfwf-admin/index.9d5e8f3b.js",
+    "isEntry": true,
+    "src": "packages/acfwf-admin/index.ts"
+  },
+  "packages/acfwf-blocks/index-legacy.tsx": {
+    "file": "packages/acfwf-blocks/index-legacy.6b02681f.js",
+    "isEntry": true,
+    "src": "packages/acfwf-blocks/index-legacy.tsx"
+  },
+  "packages/acfwf-blocks/index.css": {
+    "file": "assets/index-1b3b9b3f.css",
+    "src": "packages/acfwf-blocks/index.css"
+  },
+  "packages/acfwf-blocks/index.tsx": {
+    "css": [
+      "assets/index-1b3b9b3f.css"
+    ],
+    "file": "packages/acfwf-blocks/index.8a9e46d6.js",
+    "isEntry": true,
+    "src": "packages/acfwf-blocks/index.tsx"
+  },
+  "packages/acfwf-cart-block/index-legacy.tsx": {
+    "file": "packages/acfwf-cart-block/index-legacy.4399e68a.js",
+    "imports": [
+      "_NoticesPlugin-legacy.9368784a.js",
+      "_index-legacy.1e4d52e6.js"
+    ],
+    "isEntry": true,
+    "src": "packages/acfwf-cart-block/index-legacy.tsx"
+  },
+  "packages/acfwf-cart-block/index.tsx": {
+    "css": [
+      "assets/index-467dde24.css"
+    ],
+    "file": "packages/acfwf-cart-block/index.102a92e6.js",
+    "imports": [
+      "_NoticesPlugin.4b31c3cc.js"
+    ],
+    "isEntry": true,
+    "src": "packages/acfwf-cart-block/index.tsx"
+  },
+  "packages/acfwf-cart/index-legacy.ts": {
+    "file": "packages/acfwf-cart/index-legacy.1f20e559.js",
+    "isEntry": true,
+    "src": "packages/acfwf-cart/index-legacy.ts"
+  },
+  "packages/acfwf-cart/index.ts": {
+    "file": "packages/acfwf-cart/index.1b42fd3f.js",
+    "isEntry": true,
+    "src": "packages/acfwf-cart/index.ts"
+  },
+  "packages/acfwf-checkout-block/index-legacy.tsx": {
+    "file": "packages/acfwf-checkout-block/index-legacy.c4a962b4.js",
+    "imports": [
+      "_NoticesPlugin-legacy.9368784a.js",
+      "_index-legacy.1e4d52e6.js"
+    ],
+    "isEntry": true,
+    "src": "packages/acfwf-checkout-block/index-legacy.tsx"
+  },
+  "packages/acfwf-checkout-block/index.css": {
+    "file": "assets/index-2a7d8588.css",
+    "src": "packages/acfwf-checkout-block/index.css"
+  },
+  "packages/acfwf-checkout-block/index.tsx": {
+    "css": [
+      "assets/index-2a7d8588.css",
+      "assets/index-467dde24.css"
+    ],
+    "file": "packages/acfwf-checkout-block/index.f54da9cb.js",
+    "imports": [
+      "_NoticesPlugin.4b31c3cc.js"
+    ],
+    "isEntry": true,
+    "src": "packages/acfwf-checkout-block/index.tsx"
+  },
+  "packages/acfwf-checkout/index-legacy.ts": {
+    "file": "packages/acfwf-checkout/index-legacy.72163bf5.js",
+    "imports": [
+      "_index-legacy.1e4d52e6.js"
+    ],
+    "isEntry": true,
+    "src": "packages/acfwf-checkout/index-legacy.ts"
+  },
+  "packages/acfwf-checkout/index.css": {
+    "file": "assets/index-cc433ba4.css",
+    "src": "packages/acfwf-checkout/index.css"
+  },
+  "packages/acfwf-checkout/index.ts": {
+    "css": [
+      "assets/index-cc433ba4.css",
+      "assets/index-467dde24.css"
+    ],
+    "file": "packages/acfwf-checkout/index.fe435c4b.js",
+    "isEntry": true,
+    "src": "packages/acfwf-checkout/index.ts"
+  },
+  "packages/acfwf-edit-advanced-coupon/index-legacy.ts": {
+    "file": "packages/acfwf-edit-advanced-coupon/index-legacy.168e4c0e.js",
+    "isEntry": true,
+    "src": "packages/acfwf-edit-advanced-coupon/index-legacy.ts"
+  },
+  "packages/acfwf-edit-advanced-coupon/index.css": {
+    "file": "assets/index-02c36cad.css",
+    "src": "packages/acfwf-edit-advanced-coupon/index.css"
+  },
+  "packages/acfwf-edit-advanced-coupon/index.ts": {
+    "css": [
+      "assets/index-02c36cad.css"
+    ],
+    "file": "packages/acfwf-edit-advanced-coupon/index.a41366c5.js",
+    "isEntry": true,
+    "src": "packages/acfwf-edit-advanced-coupon/index.ts"
+  },
+  "packages/acfwf-edit-order/index-legacy.ts": {
+    "file": "packages/acfwf-edit-order/index-legacy.f061c205.js",
+    "isEntry": true,
+    "src": "packages/acfwf-edit-order/index-legacy.ts"
+  },
+  "packages/acfwf-edit-order/index.ts": {
+    "file": "packages/acfwf-edit-order/index.396bff0c.js",
+    "isEntry": true,
+    "src": "packages/acfwf-edit-order/index.ts"
+  },
+  "packages/acfwf-notices/index-legacy.ts": {
+    "file": "packages/acfwf-notices/index-legacy.aa1b3d7a.js",
+    "isEntry": true,
+    "src": "packages/acfwf-notices/index-legacy.ts"
+  },
+  "packages/acfwf-notices/index.css": {
+    "file": "assets/index-4e36428e.css",
+    "src": "packages/acfwf-notices/index.css"
+  },
+  "packages/acfwf-notices/index.ts": {
+    "css": [
+      "assets/index-4e36428e.css"
+    ],
+    "file": "packages/acfwf-notices/index.5ccc6e79.js",
+    "isEntry": true,
+    "src": "packages/acfwf-notices/index.ts"
+  },
+  "packages/acfwf-store-credits-frontend/index-legacy.tsx": {
+    "file": "packages/acfwf-store-credits-frontend/index-legacy.a8995036.js",
+    "imports": [
+      "_reactLib-legacy.46427991.js",
+      "_antd-legacy.f4c4ce62.js",
+      "_antdIcons-legacy.8fdf056b.js",
+      "_redux-legacy.aa418359.js"
+    ],
+    "isEntry": true,
+    "src": "packages/acfwf-store-credits-frontend/index-legacy.tsx"
+  },
+  "packages/acfwf-store-credits-frontend/index.css": {
+    "file": "assets/index-0c47e64a.css",
+    "src": "packages/acfwf-store-credits-frontend/index.css"
+  },
+  "packages/acfwf-store-credits-frontend/index.tsx": {
+    "css": [
+      "assets/index-0c47e64a.css"
+    ],
+    "file": "packages/acfwf-store-credits-frontend/index.522c3f5b.js",
+    "imports": [
+      "_reactLib.88bd1adb.js",
+      "_antd.c7274917.js",
+      "_antdIcons.a79677a9.js",
+      "_redux.3f90f9cb.js"
+    ],
+    "isEntry": true,
+    "src": "packages/acfwf-store-credits-frontend/index.tsx"
+  },
+  "packages/acfwf-wc-admin/index-legacy.tsx": {
+    "file": "packages/acfwf-wc-admin/index-legacy.f503be11.js",
+    "isEntry": true,
+    "src": "packages/acfwf-wc-admin/index-legacy.tsx"
+  },
+  "packages/acfwf-wc-admin/index.css": {
+    "file": "assets/index-f284c751.css",
+    "src": "packages/acfwf-wc-admin/index.css"
+  },
+  "packages/acfwf-wc-admin/index.tsx": {
+    "css": [
+      "assets/index-f284c751.css"
+    ],
+    "file": "packages/acfwf-wc-admin/index.799ce4de.js",
+    "isEntry": true,
+    "src": "packages/acfwf-wc-admin/index.tsx"
+  },
+  "vite/legacy-polyfills-legacy": {
+    "file": "polyfills-legacy.919683c1.js",
+    "isEntry": true,
+    "src": "vite/legacy-polyfills-legacy"
+  }
+}

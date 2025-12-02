@@ -1,0 +1,626 @@
+@import "../icons/css/bb-icons.css";
+
+
+$primary: #399AF9;
+$border_color: #c3c3c3;
+
+
+$primary_color: var(--accent);
+$light_grey: #F0F0F0;
+$mid_grey: #c3c3c3;
+$grey: #9B9C9F;
+$dark_grey: #242429;
+$success-color: #28a745;
+$info-color: #17a2b8;
+$warning-color: #ffc107;
+$danger-color: #dc3545;
+
+/**********************************************/
+/***        WC Schools Sidebar CSS          ***/
+/**********************************************/
+
+.logged-in #c27-site-wrapper {
+	transition: all 300ms ease-in-out;
+	margin-left: 50px;
+
+	max-width: calc(100% - 50px);
+
+	&.wc_schools_sidebar_open {
+		margin-left: 250px;
+	}
+
+	.container {
+		max-width: 100%;
+	}
+
+	.header {
+		max-width: calc(100% - 50px);
+		transition: all 300ms ease-in-out !important;
+	}
+
+	.header-left .logo {
+		display: none !important;
+	}
+
+	@media (min-width: 1200px) {
+		&.wc_schools_sidebar_open {
+			max-width: calc(100% - 250px);
+
+			.header {
+				max-width: calc(100% - 250px);
+			}
+		}
+		.c27-top-content-margin {
+			height: 129px;
+		}
+	}
+}
+
+.wc_schools_sidebar_wrapper {
+	left: 0;
+	width: 50px;
+	height: 100%;
+	position: fixed;
+	z-index: 99999996;
+
+	.wc_schools_sidebar_toggle {
+		right: 0;
+		top: 10px;
+		width: 50px;
+		font-size: 24px;
+		cursor: pointer;
+		z-index: 99999999;
+		position: absolute;
+		text-align: center;
+	}
+
+	.wc_schools_sidebar_logo {
+		a {
+			display: block;
+			text-align: center;
+			img {
+				width: 150px;
+			}
+		}
+	}
+
+	.wc_schools_sidebar_header {
+		padding: 15px;
+
+		.membership_status {
+			font-size: 18px;
+			font-weight: bold;
+			display: none;
+
+			&.premium_member {
+				// Color Gradient
+				background: $primary;
+				background: linear-gradient(to right, #A50DCF 0%, #2438CF 100%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+		}
+	}
+
+	.wc_schools_sidebar_container {
+		top: 0;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background: white;
+		padding-top: 32px;
+		position: absolute;
+		transition: 300ms ease-in-out all;
+		border-right: 1px solid $border_color;
+	}
+
+	.wc_schools_nav_link {
+		padding: 0;
+		display: flex;
+		align-items: center;
+
+		.wc_schools_nav_link_icon {
+			width: 50px;
+			font-size: 24px;
+			padding: 0;
+			text-align: center;
+			line-height: 40px;
+		}
+
+		.wc_schools_nav_link_label {
+			display: none;
+		}
+
+		.wc_schools_nav_pill {
+			display: inline-block;
+			padding: 0.5em 0.75em;
+			font-size: 0.75em;
+			font-weight: 700;
+			line-height: 1;
+			text-align: center;
+			white-space: nowrap;
+			vertical-align: baseline;
+			border-radius: 0.375rem; // Adjust for rounded corners
+			color: #fff;
+			background-color: $primary;
+		}
+	}
+
+	.wc_schools_nav_list_item {
+
+		&.active {
+			.wc_schools_nav_link {
+				background: $primary;
+				color: white;
+				margin-bottom: 5px;
+
+				.wc_schools_nav_link_icon {
+					font-weight: 300;
+				}
+			}
+		}
+
+		&:not(.active) {
+			.wc_schools_nav_link:hover {
+				color: inherit;
+				background: $border_color;
+			}
+		}
+	}
+
+	.wc_schools_sidebar_section {
+		padding-top: 15px;
+		border-top: 1px solid $border_color;
+	}
+
+	.wc_schools_sidebar_section_heading {
+		font-size: 16px;
+		margin: 15px auto;
+		padding: 0 15px;
+		display: none;
+	}
+
+	&.active .wc_schools_sidebar_container {
+		width: 250px;
+
+		.wc_schools_sidebar_header {
+			.membership_status {
+				display: block;
+			}
+		}
+
+		.wc_schools_sidebar_section_heading {
+			display: block;
+		}
+
+		.wc_schools_nav_link_label {
+			display: block;
+		}
+
+		.wc_schools_nav_link {
+			.wc_schools_nav_link_tooltip {
+				display: none;
+			}
+		}
+	}
+
+	&.free_member {
+		.wc_schools_sidebar_toggle {
+			top: 10px;
+		}
+
+		.wc_schools_sidebar_container {
+			//padding-top: 72px;
+		}
+
+		.wc_schools_nav_item_premium {
+			opacity: 0.65;
+			cursor: not-allowed;
+		}
+	}
+
+	&:not(.active) {
+		.wc_schools_sidebar_header {
+			display: none;
+		}
+		.schools_status {
+			display: none;
+		}
+
+		.wc_schools_nav_list_item {
+			margin-left: -15px;
+			margin-right: -15px;
+			&.active {
+
+			}
+		}
+
+		.wc_schools_nav_link {
+			.wc_schools_nav_link_tooltip {
+				display: block;
+				position: absolute;
+				left: 100%;
+				width: 200px;
+				max-width: max-content;
+				line-height: 30px;
+				background: black;
+				color: white;
+				padding: 0 10px;
+				margin-left: 15px;
+				transition: 300ms all ease-in-out;
+				opacity: 0;
+				visibility: hidden;
+				border-radius: 4px;
+
+				&::before {
+					content: '';
+					position: absolute;
+					top: 50%;
+					left: -5px;
+					border-style: solid;
+					border-width: 5px 5px 5px 0; // Adjust these values to change the size of the arrow
+					border-color: transparent black transparent transparent; // The second value is the color of the arrow
+					transform: translateY(-50%);
+				}
+			}
+
+			&:hover {
+				.wc_schools_nav_link_tooltip {
+					opacity: 1;
+					visibility: visible;
+				}
+			}
+		}
+
+		.wc_schools_sidebar_logo {
+			padding: 10px 0;
+			a {
+				img {
+					width: 50px;
+				}
+			}
+		}
+	}
+}
+
+
+/**********************************************/
+/***        Advertisement Banner CSS        ***/
+/**********************************************/
+
+.advertisement-banner-options .advertisement-select,
+.single-advertisement-product-options .advertisement-select {
+	display: grid;
+	margin-bottom: 15px;
+	grid-gap: 15px;
+	align-items: center;
+	grid-template-columns: 1fr minmax(0, 3fr);
+
+	label {
+		display: block;
+	}
+
+	select,
+	.select2.select2-container {
+		width: 100%;
+
+		.select2-selection__rendered {
+			display: block;
+			overflow: hidden;
+			white-space: nowrap;
+			padding-right: 20px;
+			text-overflow: ellipsis;
+		}
+	}
+}
+
+.select2-results__option[aria-disabled=true] {
+	display: none !important;
+}
+
+.single-advertisement-product-options {
+
+}
+
+.advertisement-banner {
+	.advertisement-banner-content {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: flex-start;
+
+		.advertisement-banner-details,
+		.advertisement-banner-buttons-wrapper {
+			width: 100%;
+			flex-basis: 100%;
+		}
+
+		@media (min-width: 992px) {
+			.advertisement-banner-details,
+			.advertisement-banner-buttons-wrapper {
+				width: 48%;
+				flex-basis: 48%;
+			}
+		}
+	}
+
+	.advertisement-banner-buttons {
+		display: grid;
+		grid-gap: 15px;
+		grid-auto-flow: column;
+		grid-template-rows: repeat(6, 1fr);
+
+		.advertisement-banner-button-wrapper {
+
+			.advertisement-banner-button {
+				padding: 10px 20px;
+				display: block;
+				width: 100%;
+				position: relative;
+				overflow: hidden;
+				height: 55px;
+				background: $primary;
+
+				.advertisement-banner-button-badge {
+					position: absolute;
+					font-size: 9px;
+					text-transform: uppercase;
+					line-height: 10px;
+					padding: 2px;
+					text-align: center;
+					background: #dc3545;
+					transform: rotate(40deg);
+					right: -40%;
+					top: 10px;
+					width: 100%;
+				}
+
+				&.premium {
+					background: linear-gradient(to right, #A50DCF 0%, #2438CF 100%);
+
+					.advertisement-banner-button-badge {
+						//display: none;
+					}
+				}
+
+				&.sold_out {
+					color: $grey;
+					cursor: not-allowed;
+					background: $light_grey;
+
+					.advertisement-banner-button-badge {
+						display: none;
+					}
+				}
+
+			}
+		}
+	}
+
+	.advertisement-banner-details {
+		text-align: left;
+	}
+
+	.advertisement-banner-heading {
+		margin-bottom: 15px;
+	}
+
+	.advertisement-banner-price {
+		font-size: 1.2em;
+		margin-bottom: 15px;
+	}
+
+	.advertisement-banner-text {
+		margin-bottom: 15px;
+	}
+
+	.advertisement-banner-features {
+
+	}
+
+	.advertisement-banner-features-list {
+		margin: 0 0 15px;
+		padding: 0;
+		display: grid;
+		grid-column-gap: 15px;
+		grid-row-gap: 0;
+		grid-template-columns: 1fr 1fr;
+		font-size: 15px;
+
+		.advertisement-banner-features-list-item {
+			list-style: none;
+			color: black;
+			padding: 5px 0;
+
+			i {
+				margin-right: 5px;
+				color: $success-color;
+				display: inline-block;
+			}
+		}
+	}
+
+	.advertisement-banner-button {
+		line-height: 1;
+	}
+
+	.advertisement-banner-button-badge {
+
+	}
+
+	.advertisement-banner-button-month {
+		display: block;
+		line-height: 1;
+		font-size: 16px;
+		margin-bottom: 5px;
+	}
+
+	.advertisement-banner-button-price {
+		font-size: 13px;
+		font-weight: normal;
+	}
+
+	.advertisement-price-initial {
+		color: $warning-color;
+		text-decoration: line-through;
+	}
+
+	.advertisement-price-final {
+
+	}
+
+	.advertisement-banner-errors {
+		min-height: 80px;
+	}
+
+	.advertisement-banner-loader {
+		display: none;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background: rgba(255, 255, 255, 0.9);
+		z-index: 9999;
+
+		&.active {
+			display: flex;
+		}
+
+		.advertisement-banner-loader-inner {
+			width: 45px;
+			aspect-ratio: 1;
+			--c: no-repeat linear-gradient(to bottom, #000 0%, #000 100%);
+			background: var(--c) 0 50%,
+			var(--c) 50% 50%,
+			var(--c) 100% 50%;
+			background-size: 20% 100%;
+			animation: l1 1s infinite linear;
+			@keyframes l1 {
+				0% {background-size: 20% 100%, 20% 100%, 20% 100%}
+				33% {background-size: 20% 10%, 20% 100%, 20% 100%}
+				50% {background-size: 20% 100%, 20% 10%, 20% 100%}
+				66% {background-size: 20% 100%, 20% 100%, 20% 10% }
+				100% {background-size: 20% 100%, 20% 100%, 20% 100%}
+			}
+		}
+	}
+
+	.advertisement-banner-errors-list {
+		list-style-type: none;
+		padding: 0;
+		color: #721c24;
+
+		li {
+			text-align: left;
+			list-style: disc;
+			margin-bottom: 2px;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.promoted-school-wrapper {
+	&.banner {
+		max-width: 680px;
+		margin: 0 auto;
+		.promoted-school-container {
+			display: flex;
+			border-radius: 10px;
+			overflow: hidden;
+			position: relative;
+			aspect-ratio: 10 / 12;
+			align-items: flex-end;
+			background-size: cover;
+			justify-content: flex-start;
+			background-repeat: no-repeat;
+			background-position: center center;
+
+			&::before {
+				content: "";
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				height: 50%; /* Gradient covers the bottom 50% */
+				background: linear-gradient(to top, black, rgba(0, 0, 0, 0.0));
+			}
+		}
+		.promoted-school-badge {
+			position: absolute;
+            top: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background: #dc3545;
+            color: white;
+            border-radius: 4px;
+		}
+		.promoted-school-content {
+			padding: 5%;
+			width: 100%;
+			color: white;
+			position: relative;
+			a {
+				color: white;
+                text-decoration: none;
+			}
+		}
+		.promoted-school-title h2 {
+			color: white;
+			margin-bottom: 15px;
+		}
+		.promoted-school-stars {
+			color: #FE9C31;
+			font-size: 26px;
+			margin-bottom: 15px;
+		}
+	}
+	&.spotlight {
+		.promoted-school-container {
+			text-align: center;
+			border: 1px solid $mid_grey;
+			border-radius: 10px;
+			overflow: hidden;
+			a {
+				color: inherit;
+			}
+			.promoted-school-title h3 {
+				font-size: 18px;
+				margin: 0 0 15px;
+			}
+			.promoted-school-content {
+				padding: 5%;
+				min-height: 170px;
+			}
+			.promoted-school-image {
+				aspect-ratio: 10 / 7;
+				img {
+                    height: 100%;
+					width: 100%;
+                    object-fit: cover;
+				}
+			}
+		}
+	}
+}
+
+.swal2-container {
+	.swal2-icon {
+		border-radius: 50%;
+	}
+
+	.swal2-popup {
+		width: 860px;
+		max-width: 90%;
+		font-size: 1.5rem;
+	}
+
+	.swal2-html-container {
+		padding: 25px 5%;
+	}
+}

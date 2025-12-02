@@ -1,0 +1,1284 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce PDF Invoices\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-08 13:57+0000\n"
+"PO-Revision-Date: 2022-03-17 10:19+0000\n"
+"Last-Translator: WeLaunch <support@dev.welaunch.io>\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.2; wp-5.1.1"
+
+#: admin/options-init.php:147
+msgid "\">register your License here</a>."
+msgstr "\"> registre su licencia aquí </a>."
+
+#: admin/options-init.php:506 admin/options-init.php:1295
+msgid "1/1"
+msgstr "1/1"
+
+#: admin/options-init.php:507 admin/options-init.php:1296
+msgid "1/2 + 1/2"
+msgstr "1/2 + 1/2"
+
+#: admin/options-init.php:508 admin/options-init.php:1297
+msgid "1/3 + 1/3 + 1/3"
+msgstr "1/3 + 1/3 + 1/3"
+
+#: admin/options-init.php:1298
+msgid "1/4 + 1/4 + 1/4 + 1/4"
+msgstr "1/4 + 1/4 + 1/4 + 1/4"
+
+#: admin/options-init.php:335
+msgid "A0"
+msgstr "A0"
+
+#: admin/options-init.php:336
+msgid "A0 Landscape"
+msgstr "A0 paisaje"
+
+#: admin/options-init.php:337
+msgid "A1"
+msgstr "A1"
+
+#: admin/options-init.php:338
+msgid "A1 Landscape"
+msgstr "A1 paisaje"
+
+#: admin/options-init.php:351
+msgid "A10"
+msgstr "A10"
+
+#: admin/options-init.php:352
+msgid "A10 Landscape"
+msgstr "A10 paisaje"
+
+#: admin/options-init.php:339
+msgid "A3"
+msgstr "A3"
+
+#: admin/options-init.php:340
+msgid "A3 Landscape"
+msgstr "A3 horizontal"
+
+#: admin/options-init.php:333
+msgid "A4"
+msgstr "A4"
+
+#: admin/options-init.php:334
+msgid "A4 Landscape"
+msgstr "A4 horizontal"
+
+#: admin/options-init.php:341
+msgid "A5"
+msgstr "A5"
+
+#: admin/options-init.php:342
+msgid "A5 Landscape"
+msgstr "A5 horizontal"
+
+#: admin/options-init.php:343
+msgid "A6"
+msgstr "A6"
+
+#: admin/options-init.php:344
+msgid "A6 Landscape"
+msgstr "A6 paisaje"
+
+#: admin/options-init.php:345
+msgid "A7"
+msgstr "A7"
+
+#: admin/options-init.php:346
+msgid "A7 Landscape"
+msgstr "A7 paisaje"
+
+#: admin/options-init.php:347
+msgid "A8"
+msgstr "A8"
+
+#: admin/options-init.php:348
+msgid "A8 Landscape"
+msgstr "A8 paisaje"
+
+#: admin/options-init.php:349
+msgid "A9"
+msgstr "A9"
+
+#: admin/options-init.php:350
+msgid "A9 Landscape"
+msgstr "A9 paisaje"
+
+#: admin/options-init.php:1590
+msgid "Add some stylesheet if you want."
+msgstr "Agrega un poco de hoja de estilo si quieres."
+
+#: admin/options-init.php:220
+msgid "Additional Email PDF Attachment 1"
+msgstr "Adjunto 1 de PDF de correo electrónico adicional"
+
+#: admin/options-init.php:228
+msgid "Additional Email PDF Attachment 2"
+msgstr "Adjunto 2 de PDF de correo electrónico adicional"
+
+#: admin/options-init.php:236
+msgid "Additional Email PDF Attachment 3"
+msgstr "Adjunto 3 de PDF de correo electrónico adicional"
+
+#: admin/options-init.php:649
+msgid "Address"
+msgstr "Dirección"
+
+#: admin/options-init.php:668
+msgid "Address Text Left"
+msgstr "Dirección de texto a la izquierda"
+
+#: admin/options-init.php:685
+msgid "Address Text Right"
+msgstr "Dirección de texto a la derecha"
+
+#: admin/options-init.php:126
+msgid "Admin email"
+msgstr "Correo electrónico del administrador"
+
+#: admin/options-init.php:1491
+msgid "Advanced settings"
+msgstr "Ajustes avanzados"
+
+#: admin/options-init.php:180
+msgid "Attach Invoice to Email"
+msgstr "Adjuntar factura al correo electrónico"
+
+#: admin/options-init.php:181
+msgid "Attach invoices automatically to orders."
+msgstr "Adjuntar facturas automáticamente a los pedidos."
+
+#: admin/options-init.php:188
+msgid "Attach to Email order Statuses"
+msgstr "Adjuntar a estados de pedidos por correo electrónico"
+
+#: admin/options-init.php:1556
+msgid "Barcode Size"
+msgstr "Tamaño del código de barras"
+
+#: admin/options-init.php:1563
+msgid "Barcode Type"
+msgstr "Tipo de código de barras"
+
+#: admin/options-init.php:1570
+msgid "Barcode Value"
+msgstr "Valor del código de barras"
+
+#: admin/options-init.php:551 admin/options-init.php:585
+#: admin/options-init.php:618 admin/options-init.php:1342
+#: admin/options-init.php:1381 admin/options-init.php:1419
+#: admin/options-init.php:1456
+msgid "Blog information"
+msgstr "Información del blog"
+
+#: admin/options-init.php:540 admin/options-init.php:1331
+msgid "Bottom"
+msgstr "Fondo"
+
+#: admin/options-init.php:1157
+msgid "Cart Subtotal"
+msgstr "Subtotal del carrito"
+
+#: admin/options-init.php:331
+msgid "Choose a pre-defined page size. A4 is recommended!"
+msgstr "Elija un tamaño de página predefinido. ¡Se recomienda A4!"
+
+#: admin/options-init.php:1571
+msgid "Choose the value of that the barcode gets generated."
+msgstr "Elija el valor de que se genera el código de barras."
+
+#: admin/options-init.php:700
+msgid "Content"
+msgstr "Contenido"
+
+#: admin/options-init.php:708
+msgid "Content Intro Text"
+msgstr "Contenido de texto introductorio"
+
+#: admin/options-init.php:723
+msgid "Content Outro Text"
+msgstr "Contenido de texto externo"
+
+#: admin/options-init.php:1077
+msgid "Coupon Total Name"
+msgstr "Nombre total del cupón"
+
+#: admin/options-init.php:1083
+msgid "Coupon Total Size (%)"
+msgstr "Tamaño total del cupón (%)"
+
+#: public/class-woocommerce-pdf-invoices-generator.php:178
+msgid "Coupons Used: "
+msgstr "Cupones usados:"
+
+#: admin/options-init.php:772
+msgid "CouponTotal"
+msgstr "CupónTotal"
+
+#: admin/class-woocommerce-pdf-invoices-admin.php:226
+msgid "Create Invoice"
+msgstr "Crear factura"
+
+#: admin/options-init.php:172
+msgid "Create Invoices Automatically"
+msgstr "Crear facturas automáticamente"
+
+#: public/class-woocommerce-pdf-invoices-generator.php:323
+msgid "Credit Note"
+msgstr "Nota de crédito"
+
+#: admin/options-init.php:1589
+msgid "Custom CSS"
+msgstr "CSS personalizado"
+
+#: admin/options-init.php:1492
+msgid "Custom stylesheet / javascript."
+msgstr "Hoja de estilo personalizada / javascript."
+
+#: admin/options-init.php:552 admin/options-init.php:586
+#: admin/options-init.php:619 admin/options-init.php:1343
+#: admin/options-init.php:1382 admin/options-init.php:1420
+#: admin/options-init.php:1457
+msgid "Custom text"
+msgstr "Texto personalizado"
+
+#: admin/options-init.php:1581
+msgid "Date Format"
+msgstr "Formato de fecha"
+
+#: admin/options-init.php:386
+msgid "Default Font"
+msgstr "Fuente predeterminada"
+
+#: admin/options-init.php:410
+msgid "Default font size"
+msgstr "Tamaño de fuente predeterminado"
+
+#: admin/options-init.php:419
+msgid "Default line height"
+msgstr "Altura de línea predeterminada"
+
+#: admin/options-init.php:1550 admin/options-init.php:1557
+msgid "Default: 0.8"
+msgstr "Predeterminado: 0.8"
+
+#: admin/options-init.php:1564
+msgid ""
+"Default: C128A, other possibilities: https://mpdf.github.io/reference/html-"
+"control-tags/barcode.html"
+msgstr ""
+"Predeterminado: C128A, otras posibilidades: https://mpdf.github."
+"io/reference/html-control-tags/barcode.html"
+
+#: admin/options-init.php:768 admin/options-init.php:935
+msgid "Description"
+msgstr "Descripción"
+
+#: admin/options-init.php:934
+msgid "Description Name"
+msgstr "Descripción Nombre"
+
+#: admin/options-init.php:940
+msgid "Description Size (%)"
+msgstr "Descripción Tamaño (%)"
+
+#: admin/options-init.php:766 admin/options-init.php:900
+msgid "Dimensions"
+msgstr "Dimensiones"
+
+#: admin/options-init.php:899
+msgid "Dimensions Name"
+msgstr "Dimensiones Nombre"
+
+#: admin/options-init.php:905
+msgid "Dimensions Size (%)"
+msgstr "Dimensiones Tamaño (%)"
+
+#: admin/options-init.php:1134
+msgid ""
+"Disable totals data reordering when you have custom totals fields like "
+"paypal fees or similar. When disabled the default Woo totals ordering will "
+"be used."
+msgstr ""
+"Deshabilite la reordenación de datos de totales cuando tenga campos de "
+"totales personalizados como tarifas de PayPal o similares. Cuando está "
+"deshabilitado, se usará el orden predeterminado de totales de Woo."
+
+#: admin/options-init.php:1078 admin/options-init.php:1149
+msgid "Discount"
+msgstr "Descuento"
+
+#: admin/class-woocommerce-pdf-invoices-admin.php:139
+#: admin/class-woocommerce-pdf-invoices-admin.php:267
+msgid "Download Invoice"
+msgstr "Descargar factura"
+
+#: admin/class-woocommerce-pdf-invoices-admin.php:197
+#: public/class-woocommerce-pdf-invoices-public.php:428
+msgid "Download Invoice (PDF)"
+msgstr "Descargar factura (PDF)"
+
+#: admin/options-init.php:391
+msgid "Droid Sans"
+msgstr "Droid Sans"
+
+#: admin/options-init.php:392
+msgid "Droid Serif"
+msgstr "Droid Serif"
+
+#: admin/options-init.php:304
+msgid "E.g. 7 = 0000005"
+msgstr "P.ej. 7 = 0000005"
+
+#: admin/options-init.php:154 admin/options-init.php:470
+#: admin/options-init.php:1258
+msgid "Enable"
+msgstr "Habilitar"
+
+#: admin/options-init.php:1499
+msgid "Enable Debug Mode"
+msgstr "Habilitar el modo de depuración"
+
+#: admin/options-init.php:1259
+msgid "Enable footer"
+msgstr "Habilitar pie de página"
+
+#: admin/options-init.php:471
+msgid "Enable header"
+msgstr "Habilitar encabezado"
+
+#: admin/options-init.php:261
+msgid "Enable Invoice Numbering"
+msgstr "Habilitar la numeración de facturas"
+
+#: admin/options-init.php:1506
+msgid "Enable MPDF Debug Mode"
+msgstr "Habilitar el modo de depuración de MPDF"
+
+#: admin/options-init.php:155
+msgid "Enable PDF Invoices to use the options below"
+msgstr "Habilitar facturas PDF para usar las opciones a continuación"
+
+#: admin/options-init.php:1133
+msgid "Enable Totals Data Reordering"
+msgstr "Habilitar la reordenación de datos de totales"
+
+#: admin/options-init.php:430
+msgid "Even Items Background Color"
+msgstr "Incluso los elementos de color de fondo"
+
+#: admin/options-init.php:438
+msgid "Even Items Text Color"
+msgstr "Incluso los artículos de color de texto"
+
+#: admin/options-init.php:1521
+msgid "Exclude User Roles"
+msgstr "Excluir roles de usuario"
+
+#: admin/options-init.php:1542
+msgid "Exclude WCB2B Groups"
+msgstr "Excluir grupos WCB2B"
+
+#: admin/options-init.php:355
+msgid "Executive"
+msgstr "Ejecutivo"
+
+#: admin/options-init.php:555 admin/options-init.php:589
+#: admin/options-init.php:622 admin/options-init.php:1346
+#: admin/options-init.php:1385 admin/options-init.php:1423
+#: admin/options-init.php:1460
+msgid "Export Information"
+msgstr "Exportar informacion"
+
+#: admin/options-init.php:356
+msgid "Folio"
+msgstr "F º"
+
+#: admin/options-init.php:1250
+msgid "Footer"
+msgstr "Pie de página"
+
+#: admin/options-init.php:1266
+msgid "Footer background color"
+msgstr "Color de fondo de pie de página"
+
+#: admin/options-init.php:1283
+msgid "Footer font size"
+msgstr "Tamaño de fuente de pie de página"
+
+#: admin/options-init.php:1316
+msgid "Footer Height"
+msgstr "Altura de pie de página"
+
+#: admin/options-init.php:1292
+msgid "Footer Layout"
+msgstr "Diseño de pie de página"
+
+#: admin/options-init.php:1306
+msgid "Footer Margin"
+msgstr "Margen de pie de página"
+
+#: admin/options-init.php:1275
+msgid "Footer text color"
+msgstr "Color del texto del pie de página"
+
+#: admin/options-init.php:330
+msgid "Format"
+msgstr "Formato"
+
+#: admin/options-init.php:146
+msgid "General"
+msgstr "General"
+
+#. Description of the plugin
+msgid "Generate PDF Invoices for WooCommerce with Ease."
+msgstr "Genere facturas en PDF para WooCommerce con facilidad."
+
+#: public/class-woocommerce-pdf-invoices-generator.php:171
+msgid "Guest"
+msgstr "Huésped"
+
+#: admin/options-init.php:462
+msgid "Header"
+msgstr "Encabezamiento"
+
+#: admin/options-init.php:478
+msgid "Header background color"
+msgstr "Color de fondo del encabezado"
+
+#: admin/options-init.php:494
+msgid "Header font size"
+msgstr "Tamaño de fuente del encabezado"
+
+#: admin/options-init.php:525
+msgid "Header Height"
+msgstr "Altura del encabezado"
+
+#: admin/options-init.php:503
+msgid "Header Layout"
+msgstr "Diseño de encabezado"
+
+#: admin/options-init.php:515
+msgid "Header Margin"
+msgstr "Margen de encabezado"
+
+#: admin/options-init.php:486
+msgid "Header text color"
+msgstr "Color del texto del encabezado"
+
+#. Author URI of the plugin
+msgid "https://welaunch.io"
+msgstr "https://welaunch.io"
+
+#. URI of the plugin
+msgid "https://welaunch.io/plugins/woocommerce-pdf-invoices/"
+msgstr "https://welaunch.io/plugins/woocommerce-pdf-invoices/"
+
+#: admin/options-init.php:270
+msgid "I-{{date}}-"
+msgstr "Yo - {{fecha}} -"
+
+#: admin/options-init.php:262
+msgid ""
+"If enabled you can use {{invoice_number}} in the invoice document. Click on "
+"regenerate if you enable this for the first time."
+msgstr ""
+"Si está habilitado, puede usar {{invoice_number}} en el documento de factura."
+" Haga clic en regenerar si lo habilita por primera vez."
+
+#: admin/options-init.php:554 admin/options-init.php:588
+#: admin/options-init.php:621 admin/options-init.php:756
+#: admin/options-init.php:806 admin/options-init.php:1345
+#: admin/options-init.php:1384 admin/options-init.php:1422
+#: admin/options-init.php:1459
+msgid "Image"
+msgstr "Imagen"
+
+#: admin/options-init.php:811
+msgid "Image Column Size (%)"
+msgstr "Tamaño de columna de imagen (%)"
+
+#: admin/options-init.php:805
+msgid "Image Name"
+msgstr "Nombre de la imágen"
+
+#: admin/options-init.php:820
+msgid "Image size (px)"
+msgstr "Tamaño de la imagen (px)"
+
+#: admin/options-init.php:1530
+msgid "Include User Roles"
+msgstr "Incluir roles de usuario"
+
+#: admin/options-init.php:246
+msgid ""
+"Instead of downloading the invoice it will show the PDF directly in browser."
+msgstr ""
+"En lugar de descargar la factura, mostrará el PDF directamente en el "
+"navegador."
+
+#: admin/options-init.php:1188
+msgid "Instead of showing the tax amount also show the tax rate."
+msgstr ""
+"En lugar de mostrar el monto del impuesto también se muestra la tasa del "
+"impuesto."
+
+#: public/class-woocommerce-pdf-invoices-generator.php:323
+msgid "Invoice"
+msgstr "Factura"
+
+#: public/class-woocommerce-pdf-invoices-public.php:422
+msgid "Invoice (PDF)"
+msgstr "Factura (PDF)"
+
+#: admin/options-init.php:211
+msgid "Invoice Due Date Days"
+msgstr "Días de vencimiento de la factura"
+
+#: admin/options-init.php:253 admin/options-init.php:1573
+msgid "Invoice Number"
+msgstr "Número de factura"
+
+#: admin/options-init.php:284
+msgid "Invoice Number Date Format"
+msgstr "Formato de fecha de número de factura"
+
+#: admin/options-init.php:268
+msgid "Invoice Number Prefix"
+msgstr "Prefijo de número de factura"
+
+#: admin/options-init.php:276
+msgid "Invoice Number Suffix"
+msgstr "Sufijo de número de factura"
+
+#: admin/options-init.php:743
+msgid "Item Data To Show"
+msgstr "Datos del artículo para mostrar"
+
+#: admin/options-init.php:393
+msgid "Lato"
+msgstr "Lato"
+
+#: admin/options-init.php:322
+msgid "Layout"
+msgstr "Diseño"
+
+#: admin/options-init.php:354
+msgid "Legal"
+msgstr "Legal"
+
+#: admin/options-init.php:353
+msgid "Letter"
+msgstr "Letra"
+
+#: admin/options-init.php:394
+msgid "Lora"
+msgstr "Lora"
+
+#: admin/options-init.php:129
+msgid "Manual email"
+msgstr "Correo electrónico manual"
+
+#: admin/options-init.php:395
+msgid "Merriweather"
+msgstr "Merriweather"
+
+#: admin/options-init.php:539 admin/options-init.php:1330
+msgid "Middle"
+msgstr "Medio"
+
+#: admin/options-init.php:390
+msgid "Mono"
+msgstr "Mono"
+
+#: admin/options-init.php:396
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: public/class-woocommerce-pdf-invoices-generator.php:793
+#: public/class-woocommerce-pdf-invoices-generator.php:801
+#: public/class-woocommerce-pdf-invoices-generator.php:838
+#: public/class-woocommerce-pdf-invoices-generator.php:840
+#: public/class-woocommerce-pdf-invoices-generator.php:846
+#: public/class-woocommerce-pdf-invoices-generator.php:848
+#: public/class-woocommerce-pdf-invoices-generator.php:854
+#: public/class-woocommerce-pdf-invoices-generator.php:856
+#: public/class-woocommerce-pdf-invoices-generator.php:862
+#: public/class-woocommerce-pdf-invoices-generator.php:864
+#: public/class-woocommerce-pdf-invoices-generator.php:870
+#: public/class-woocommerce-pdf-invoices-generator.php:872
+#: public/class-woocommerce-pdf-invoices-generator.php:925
+#: public/class-woocommerce-pdf-invoices-generator.php:933
+msgid "N/A"
+msgstr "N / A"
+
+#: admin/options-init.php:141 admin/options-init.php:1599
+msgid "Need support? Please use the comment function on codecanyon."
+msgstr ""
+"¿Necesita ayuda? Por favor use la función de comentarios en codecanyon."
+
+#: admin/class-woocommerce-pdf-invoices-admin.php:224
+msgid "No files uploaded."
+msgstr "No hay archivos subidos."
+
+#: admin/class-woocommerce-pdf-invoices-admin.php:296
+msgid "No Invoice PDFs found"
+msgstr "No se encontraron archivos PDF de facturas"
+
+#: public/class-woocommerce-pdf-invoices-generator.php:92
+msgid "No Woo Order Found"
+msgstr "No se ha encontrado ninguna orden Woo"
+
+#: admin/options-init.php:550 admin/options-init.php:584
+#: admin/options-init.php:617 admin/options-init.php:1341
+#: admin/options-init.php:1380 admin/options-init.php:1418
+#: admin/options-init.php:1455
+msgid "None"
+msgstr "Ninguna"
+
+#: admin/options-init.php:303
+msgid "Number pad length"
+msgstr "Longitud del teclado numérico"
+
+#: admin/options-init.php:446
+msgid "Odd Items Background Color"
+msgstr "Color de fondo de los elementos impares"
+
+#: admin/options-init.php:454
+msgid "Odd Items Text Color"
+msgstr "Color de texto de elementos impares"
+
+#: admin/class-woocommerce-pdf-invoices-admin.php:212
+#, php-format
+msgid "Old Invoice %d"
+msgstr "Factura antigua %d"
+
+#: admin/class-woocommerce-pdf-invoices-admin.php:204
+msgid "Old Invoices"
+msgstr "Facturas antiguas"
+
+#: admin/options-init.php:397
+msgid "Open sans"
+msgstr "Sans abierto"
+
+#: admin/options-init.php:398
+msgid "Open Sans Condensed"
+msgstr "Open Sans Condensed"
+
+#: admin/options-init.php:1574
+msgid "Order ID"
+msgstr "Solicitar ID"
+
+#: admin/options-init.php:1151
+msgid "Order Total"
+msgstr "Total del pedido"
+
+#: admin/options-init.php:399
+msgid "Oswald"
+msgstr "Oswald"
+
+#: admin/options-init.php:367
+msgid "Padding"
+msgstr "Relleno"
+
+#: public/class-woocommerce-pdf-invoices-generator.php:1200
+msgid "Page:"
+msgstr "Página:"
+
+#: admin/options-init.php:553 admin/options-init.php:587
+#: admin/options-init.php:620 admin/options-init.php:1344
+#: admin/options-init.php:1383 admin/options-init.php:1421
+#: admin/options-init.php:1458
+msgid "Pagenumber"
+msgstr "Número de página"
+
+#: admin/options-init.php:1147
+msgid "Payment Method"
+msgstr "Método de pago"
+
+#: admin/class-woocommerce-pdf-invoices-admin.php:168
+msgid "PDF Invoice"
+msgstr "Factura en PDF"
+
+#: admin/options-init.php:44 admin/options-init.php:139
+msgid "PDF Invoices"
+msgstr "Facturas PDF"
+
+#: admin/options-init.php:173
+msgid "PDF invoices will be created for each order automatically."
+msgstr "Las facturas en PDF se crearán para cada pedido automáticamente."
+
+#: admin/options-init.php:755
+msgid "Pos"
+msgstr "Pos"
+
+#: admin/options-init.php:789
+msgid "Pos Name"
+msgstr "Nombre de posición"
+
+#: admin/options-init.php:795
+msgid "Pos Size (%)"
+msgstr "Tamaño de posición (%)"
+
+#: admin/options-init.php:790
+msgid "Pos."
+msgstr "Pos."
+
+#: admin/options-init.php:1597
+msgid "Preview"
+msgstr "Avance"
+
+#: admin/options-init.php:971 admin/options-init.php:989
+msgid "Price"
+msgstr "Precio"
+
+#: admin/options-init.php:759
+msgid "Price excl. Taxes"
+msgstr "Precio excl. Impuestos"
+
+#: admin/options-init.php:769
+msgid "Price incl. Tax"
+msgstr "Precio incl. Impuesto"
+
+#: admin/options-init.php:988
+msgid "Price with Taxes Name"
+msgstr "Precio con Impuestos Nombre"
+
+#: admin/options-init.php:994
+msgid "Price with Taxes Size (%)"
+msgstr "Precio con Impuestos Tamaño (%)"
+
+#: admin/options-init.php:757 admin/options-init.php:832
+msgid "Product"
+msgstr "Producto"
+
+#: admin/options-init.php:831
+msgid "Product Name"
+msgstr "nombre del producto"
+
+#: admin/options-init.php:837
+msgid "Product Size (%)"
+msgstr "Tamaño del producto (%)"
+
+#: admin/options-init.php:760
+msgid "Product Taxes"
+msgstr "Impuestos sobre el producto"
+
+#: admin/options-init.php:1095
+msgid "Product Total Name"
+msgstr "Nombre total del producto"
+
+#: admin/options-init.php:1117
+msgid "Product Total Saved Price Text"
+msgstr "Texto del precio total ahorrado del producto"
+
+#: admin/options-init.php:1101
+msgid "Product Total Size (%)"
+msgstr "Tamaño total del producto (%)"
+
+#: admin/options-init.php:400
+msgid "PT Sans"
+msgstr "PT Sans"
+
+#: admin/options-init.php:1549
+msgid "QR Code Size"
+msgstr "Tamaño del código QR"
+
+#: admin/options-init.php:758 admin/options-init.php:953
+msgid "Qty"
+msgstr "Cantidad"
+
+#: admin/options-init.php:952
+msgid "Qty Name"
+msgstr "Cant. Nombre"
+
+#: admin/options-init.php:958
+msgid "Qty Size (%)"
+msgstr "Cantidad Tamaño (%)"
+
+#: admin/options-init.php:403
+msgid "Raleway"
+msgstr "Raleway"
+
+#: admin/options-init.php:1150 admin/options-init.php:1206
+#: admin/options-init.php:1207
+msgid "Refunded"
+msgstr "Reintegrado"
+
+#: admin/options-init.php:781
+msgid "Remove Coupon Discount from Items"
+msgstr "Eliminar cupón de descuento de artículos"
+
+#: admin/options-init.php:245
+msgid "Render Invoice instead of Download"
+msgstr "Facturar factura en lugar de descargar"
+
+#: admin/options-init.php:1543
+msgid "Requires the WooCommerce B2B Plugin"
+msgstr "Requiere el complemento WooCommerce B2B"
+
+#: admin/options-init.php:388
+msgid "Sans"
+msgstr "Sans"
+
+#: admin/class-woocommerce-pdf-invoices-admin.php:243
+msgid "Select Order ID"
+msgstr "Seleccione ID de pedido"
+
+#: admin/options-init.php:1522
+msgid "Select user roles, where the plugin should NOT generate invoices."
+msgstr ""
+"Seleccione roles de usuario, donde el complemento NO debería generar "
+"facturas."
+
+#: admin/options-init.php:1531
+msgid "Select user roles, where the plugin should ONLY generate invoices."
+msgstr ""
+"Seleccione roles de usuario, donde el complemento SOLO debería generar "
+"facturas."
+
+#: admin/options-init.php:389
+msgid "Serif"
+msgstr "Serif"
+
+#: admin/options-init.php:1155 admin/options-init.php:1228
+#: admin/options-init.php:1229
+msgid "Shipping excl. Taxes"
+msgstr "Envío excl. Impuestos"
+
+#: admin/options-init.php:1154 admin/options-init.php:1235
+#: admin/options-init.php:1236
+msgid "Shipping incl. Taxes"
+msgstr "Envío incluido Impuestos"
+
+#: admin/options-init.php:1146
+msgid "Shipping Method"
+msgstr "Método de envío"
+
+#: admin/options-init.php:1156 admin/options-init.php:1242
+#: admin/options-init.php:1243
+msgid "Shipping Taxes"
+msgstr "Impuestos de envío"
+
+#: admin/options-init.php:917
+msgid "Short Description"
+msgstr "Breve descripción"
+
+#: admin/options-init.php:916
+msgid "Short Description Name"
+msgstr "Descripción breve Nombre"
+
+#: admin/options-init.php:922
+msgid "Short Description Size (%)"
+msgstr "Breve descripción Tamaño (%)"
+
+#: admin/options-init.php:767
+msgid "ShortDescription"
+msgstr "Breve descripción"
+
+#: admin/options-init.php:1507
+msgid "Show image , font or other errors in the PDF Rendering engine."
+msgstr ""
+"Muestra la imagen, la fuente u otros errores en el motor de procesamiento de "
+"PDF."
+
+#: admin/options-init.php:205
+msgid "Show Invoice in Thank you and Order detail pages."
+msgstr "Mostrar factura en las páginas de detalles de agradecimiento y pedido."
+
+#: admin/options-init.php:204
+msgid "Show Invoice to Customers"
+msgstr "Mostrar factura a clientes"
+
+#: admin/options-init.php:1513
+msgid "Show old Invoices"
+msgstr "Mostrar facturas antiguas"
+
+#: admin/options-init.php:846
+msgid "Show Product Link"
+msgstr "Mostrar enlace de producto"
+
+#: admin/options-init.php:1110
+msgid "Show Product Total Saved Price"
+msgstr "Mostrar precio total ahorrado del producto"
+
+#: admin/options-init.php:1187
+msgid "Show Tax Rates"
+msgstr "Mostrar tasas de impuestos"
+
+#: admin/options-init.php:1514
+msgid "Shows old invoices on order pages in backend only."
+msgstr ""
+"Muestra facturas antiguas en las páginas de pedidos solo en el backend."
+
+#: admin/options-init.php:970
+msgid "Single Product Price without Taxes Name"
+msgstr "Precio de producto único sin impuestos Nombre"
+
+#: admin/options-init.php:976
+msgid "Single Product Price witout Taxes Size (%)"
+msgstr "Precio de un solo producto sin impuestos Tamaño (%)"
+
+#: admin/options-init.php:1005
+msgid "Single Product Taxes"
+msgstr "Impuestos sobre un solo producto"
+
+#: admin/options-init.php:1011
+msgid "Single Product Taxes Size (%)"
+msgstr "Tamaño de los impuestos de un solo producto (%)"
+
+#: admin/options-init.php:764 admin/options-init.php:865
+msgid "SKU"
+msgstr "SKU"
+
+#: admin/options-init.php:864
+msgid "SKU Name"
+msgstr "Nombre SKU"
+
+#: admin/options-init.php:870
+msgid "SKU Size (%)"
+msgstr "Tamaño de SKU (%)"
+
+#: admin/options-init.php:402
+msgid "Slabo"
+msgstr "Slabo"
+
+#: admin/options-init.php:401
+msgid "Source Sans Pro"
+msgstr "Fuente Sans Pro"
+
+#: admin/options-init.php:292
+msgid "Start Number"
+msgstr "Número de inicio"
+
+#: admin/options-init.php:1144
+msgid "Subtotal excl. Taxes"
+msgstr "Subtotal excl. Impuestos"
+
+#: admin/options-init.php:1180
+msgid "Subtotal excl. VAT"
+msgstr "Subtotal excl. IVA"
+
+#: admin/options-init.php:1145
+msgid "Subtotal incl. Taxes"
+msgstr "Subtotal incl. Impuestos"
+
+#: admin/options-init.php:1172
+msgid "Subtotal incl. VAT"
+msgstr "Subtotal incl. IVA"
+
+#: admin/options-init.php:1171
+msgid "Subtotal with Taxes Name"
+msgstr "Subtotal con nombre de impuestos"
+
+#: admin/options-init.php:1179
+msgid "Subtotal without Taxes Name"
+msgstr "Subtotal sin impuestos Nombre"
+
+#: admin/options-init.php:1196
+msgid "Tax rate text"
+msgstr "Texto de tasa impositiva"
+
+#: admin/options-init.php:1148
+msgid "Tax Rates"
+msgstr "Las tasas de impuestos"
+
+#: admin/options-init.php:1160
+msgid "Tax Total *"
+msgstr "Total de impuestos *"
+
+#: admin/options-init.php:1006
+msgid "Taxes"
+msgstr "Impuestos"
+
+#: admin/options-init.php:1043
+msgid "Taxes (in %)"
+msgstr "Impuestos (en%)"
+
+#: admin/options-init.php:771
+msgid "Taxes Total"
+msgstr "Total de impuestos"
+
+#: admin/options-init.php:379
+msgid "Text Color"
+msgstr "Color de texto"
+
+#: admin/options-init.php:293
+msgid "The invoice start number. Default: 1"
+msgstr "El número de inicio de la factura. Predeterminado: 1"
+
+#: admin/options-init.php:269
+msgid ""
+"The Prefix can contain custom text or the following vars: {{date}}, "
+"{{order_id}}, {{customer_id}}."
+msgstr ""
+"El prefijo puede contener texto personalizado o las siguientes variables: "
+"{{date}}, {{order_id}}, {{customer_id}}."
+
+#: admin/options-init.php:277
+msgid ""
+"The Suffix can contain custom text or the following vars: {{date}}, "
+"{{order_id}}, {{customer_id}}."
+msgstr ""
+"El sufijo puede contener texto personalizado o las siguientes variables: "
+"{{date}}, {{order_id}}, {{customer_id}}."
+
+#: admin/options-init.php:221 admin/options-init.php:229
+#: admin/options-init.php:237
+msgid ""
+"This attachment will be added to the mail and also shows in customers thank "
+"you and order details if enabled."
+msgstr ""
+"Este archivo adjunto se agregará al correo y también se mostrará en el "
+"agradecimiento de los clientes y los detalles del pedido si está habilitado."
+
+#: admin/options-init.php:1500
+msgid "This stops creating the PDF and shows the plain HTML."
+msgstr "Esto deja de crear el PDF y muestra el HTML plano."
+
+#: admin/options-init.php:538 admin/options-init.php:1329
+msgid "Top"
+msgstr "Parte superior"
+
+#: admin/options-init.php:1338
+msgid "Top Left Footer"
+msgstr "Pie superior izquierdo"
+
+#: admin/options-init.php:1368
+msgid "Top Left Footer Image"
+msgstr "Imagen del pie izquierdo superior"
+
+#: admin/options-init.php:1353
+msgid "Top Left Footer Text"
+msgstr "Texto del pie de página superior izquierdo"
+
+#: admin/options-init.php:547
+msgid "Top Left Header"
+msgstr "Encabezado superior izquierdo"
+
+#: admin/options-init.php:572
+msgid "Top Left Header Image"
+msgstr "Imagen del encabezado superior izquierdo"
+
+#: admin/options-init.php:562
+msgid "Top Left Header Text"
+msgstr "Texto del encabezado superior izquierdo"
+
+#: admin/options-init.php:581
+msgid "Top Middle Header"
+msgstr "Encabezado medio superior"
+
+#: admin/options-init.php:605
+msgid "Top Middle Header Image"
+msgstr "Imagen del encabezado medio superior"
+
+#: admin/options-init.php:595
+msgid "Top Middle Header Text"
+msgstr "Texto del encabezado medio superior"
+
+#: admin/options-init.php:1377
+msgid "Top Middle Left Footer"
+msgstr "Pie medio superior izquierdo"
+
+#: admin/options-init.php:1406
+msgid "Top Middle Left Footer Image"
+msgstr "Imagen de pie medio superior izquierda"
+
+#: admin/options-init.php:1392
+msgid "Top Middle Left Footer Text"
+msgstr "Texto de pie medio superior izquierdo"
+
+#: admin/options-init.php:1415
+msgid "Top Middle Right Footer"
+msgstr "Pie medio derecho superior"
+
+#: admin/options-init.php:1443
+msgid "Top Middle Right Footer Image"
+msgstr "Imagen del pie derecho medio superior"
+
+#: admin/options-init.php:1430
+msgid "Top Middle Right Footer Text"
+msgstr "Texto del pie derecho medio superior"
+
+#: admin/options-init.php:1452
+msgid "Top Right Footer"
+msgstr "Pie derecho superior"
+
+#: admin/options-init.php:1481
+msgid "Top Right Footer Image"
+msgstr "Imagen del pie derecho superior"
+
+#: admin/options-init.php:1467
+msgid "Top Right Footer Text"
+msgstr "Texto de pie derecho superior"
+
+#: admin/options-init.php:614
+msgid "Top Right Header"
+msgstr "Encabezado derecho superior"
+
+#: admin/options-init.php:639
+msgid "Top Right Header Image"
+msgstr "Imagen del encabezado superior derecho"
+
+#: admin/options-init.php:629
+msgid "Top Right Header Text"
+msgstr "Texto del encabezado superior derecho"
+
+#: admin/options-init.php:761 admin/options-init.php:1096
+msgid "Total"
+msgstr "Total"
+
+#: admin/options-init.php:1025 admin/options-init.php:1158
+msgid "Total excl. Taxes"
+msgstr "Total excl. Impuestos"
+
+#: admin/options-init.php:1220
+msgid "Total excl. Taxes Name"
+msgstr "Total excl. Nombre de impuestos"
+
+#: admin/options-init.php:1221
+msgid "Total excl. VAT"
+msgstr "Total excl. IVA"
+
+#: admin/options-init.php:1159
+msgid "Total incl. Taxes"
+msgstr "Total incl. Impuestos"
+
+#: admin/options-init.php:1213 admin/options-init.php:1214
+msgid "Total incl. VAT"
+msgstr "Total incl. IVA"
+
+#: admin/options-init.php:1060
+msgid "Total Taxes Name"
+msgstr "Nombre de impuestos totales"
+
+#: admin/options-init.php:1066
+msgid "Total Taxes Size (%)"
+msgstr "Tamaño total de impuestos (%)"
+
+#: admin/options-init.php:1042
+msgid "Total Without Taxes (%) Name"
+msgstr "Total sin impuestos (%) Nombre"
+
+#: admin/options-init.php:1024
+msgid "Total Without Taxes Name"
+msgstr "Total sin impuestos Nombre"
+
+#: admin/options-init.php:1030 admin/options-init.php:1048
+msgid "Total Without Taxes Size (%)"
+msgstr "Tamaño total sin impuestos (%)"
+
+#: admin/options-init.php:1125
+msgid "Totals Data To Show"
+msgstr "Datos de totales para mostrar"
+
+#: admin/options-init.php:770
+msgid "TotalWithoutVAT"
+msgstr "TotalSin IVA"
+
+#: admin/class-woocommerce-pdf-invoices-admin.php:198
+msgid "Update Invoice"
+msgstr "Actualizar factura"
+
+#: admin/options-init.php:285
+msgid ""
+"Use any date format constants from here: <a target=\"_blank\" href=\"https:"
+"//www.php.net/manual/en/function.date.php#refsect1-function.date-"
+"parameters\">PHP Date Constants</a>"
+msgstr ""
+"Utilice cualquier constante de formato de fecha de aquí: <a "
+"target=\"_blank\" href=\"https://www.php.net/manual/en/function.date."
+"php#refsect1-function.date-parameters\">Constantes de fecha de PHP</a>"
+
+#: admin/options-init.php:212
+msgid "Use {{invoice_due_date}} as a variable."
+msgstr "Utilice {{invoice_due_date}} como variable."
+
+#: admin/options-init.php:1061
+msgid "VAT"
+msgstr "IVA"
+
+#: admin/options-init.php:773
+msgid "VATInPercent"
+msgstr "VATInPercent"
+
+#: admin/options-init.php:535 admin/options-init.php:1326
+msgid "Vertical Align"
+msgstr "Alineación vertical"
+
+#: admin/options-init.php:765 admin/options-init.php:882
+msgid "Weight"
+msgstr "Peso"
+
+#: admin/options-init.php:881
+msgid "Weight Name"
+msgstr "Nombre de peso"
+
+#: admin/options-init.php:887
+msgid "Weight Size (%)"
+msgstr "Tamaño de peso (%)"
+
+#. Author of the plugin
+msgid "weLaunch"
+msgstr "weLaunch"
+
+#: admin/options-init.php:782
+msgid "When a product has a discount applied, substract the single item lines."
+msgstr ""
+"Cuando se aplica un descuento a un producto, reste las líneas de un solo "
+"artículo."
+
+#: admin/options-init.php:1111
+msgid ""
+"When a product is on sale or a coupon is applied it will show the difference "
+"amount that is saved."
+msgstr ""
+"Cuando un producto está en oferta o se aplica un cupón, mostrará la "
+"diferencia que se ahorra."
+
+#. Name of the plugin
+#: admin/options-init.php:36 admin/options-init.php:38
+msgid "WooCommerce PDF Invoices"
+msgstr "Facturas en PDF de WooCommerce"
+
+#: woocommerce-ultimate-pdf-invoices.php:88
+msgid ""
+"WooCommerce PDF Invoices requires the WooCommerce and weLaunch Framework "
+"plugin. Please install or activate them before: https://www.welaunch."
+"io/updates/welaunch-framework.zip"
+msgstr ""
+"WooCommerce PDF Invoices requiere el complemento WooCommerce y weLaunch "
+"Framework. Instálelos o actívelos antes: https://www.welaunch."
+"io/updates/welaunch-framework.zip"
+
+#: admin/options-init.php:286
+msgid "Y-m"
+msgstr "Y-m"
+
+#: admin/options-init.php:1197
+msgid ""
+"You can use 3 variables here: first is the tax rate, then tax name and tax "
+"label. Use: {{taxRate}} or {{taxName}} or {{taxLabel}}"
+msgstr ""
+"Puede usar 3 variables aquí: primero es la tasa de impuestos, luego el "
+"nombre del impuesto y la etiqueta del impuesto. Utilice: {{taxRate}} o "
+"{{taxName}} o {{taxLabel}}"
+
+#: admin/options-init.php:1118
+#, php-format
+msgid "You saved: %s"
+msgstr "Guardaste:% s"
+
+#: admin/options-init.php:1198
+msgid "{{taxLabel}} ({{taxRate}}):"
+msgstr "{{taxLabel}} ({{taxRate}}):"

@@ -1,0 +1,13 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "title": "BetterDocs Categories",
+    "name": "betterdocs/categories",
+    "category": "widgets",
+    "description": "Display your Knowledgebase in an amazing Grid layout and style it any way you want.",
+    "textdomain": "betterdocs",
+    "editorStyle": [
+        "betterdocs-categories",
+        "file:./default.css"
+    ]
+}
