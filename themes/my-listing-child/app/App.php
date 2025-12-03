@@ -7,6 +7,8 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 use NGD_THEME\Front\Front;
 use NGD_THEME\Admin\Admin;
 use NGD_THEME\Functions\WooCommerce;
+use NGD_THEME\Functions\RenewalCron;   // <-- Added
+use NGD_THEME\Functions\PaymentWebhook; // <-- Added
 
 class App {
 
@@ -20,6 +22,11 @@ class App {
 			if (is_admin()) {
 				new Admin($run_hooks);
 			}
+
+            // --- AUTOMATION LOADING ---
+            new RenewalCron();
+            new PaymentWebhook();
+            // --------------------------
 		}
 	}
 
